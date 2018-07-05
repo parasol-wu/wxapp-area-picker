@@ -1,0 +1,149 @@
+page{
+  background: #F9F9F9
+}
+.container{
+  padding: 0;
+}
+.installForm{
+  width: 100%;
+  height: 100%;
+}
+.address{
+  width: 94%;
+  margin: 50rpx 0 0 3%;
+  border-radius: 5px;
+  box-shadow: 0px 2px  5px #ccc;
+}
+.selectAddress{
+  width: 100%;
+  height: 80rpx;
+  background: #fff;
+  border-bottom: 1px solid #F2F2F2;
+}
+.address_province{
+  width: 33%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  background: #fff;
+  float:left;
+  text-align: center;
+}
+.address_city{
+  width: 50%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  background: #fff;
+  float:left;
+  text-align: center;
+}
+.address_number{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  background: #fff;
+  float:left;
+  text-align: center;
+}
+.selecrtImg{
+  float:right;
+  margin-top: 10rpx;
+}
+.installTable{
+  width: 94%;
+  height: 200rpx;
+  background: #fff;
+  margin: 50rpx 0 0 3%;
+  box-shadow: 0px 2px  5px #ccc;
+}
+.devEui{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #F2F2F2;
+}
+.devText{
+  width: 20%;
+  height: 102rpx;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  padding-left: 10rpx;
+  float:left;
+}
+.devCode{
+  width: 65%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  color: #ccc;
+  float:left;
+}
+.codeImg{
+  float:right;
+  margin: 26rpx 26rpx 0 0;
+}
+.status{
+  width: 100%;
+  height: 100rpx;
+}
+.status_btn{
+  width: 75%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  float: left;
+}
+/* 绑定成功 */
+.status_success{
+  padding: 5rpx 20rpx;
+  line-height: 60rpx;
+  margin-top: 15rpx;
+  background: #17D436;
+  border-radius: 20px;
+  color: #fff;
+  float: left;
+}
+/* 待绑定 */
+.status_waiting{
+  padding: 5rpx 20rpx;
+  line-height: 60rpx;
+  margin-top: 15rpx;
+  background: #BCBCBC;
+  border-radius: 20px;
+  color: #fff;
+  float: left;
+}
+/* 绑定中.. */
+.status_ing{
+  padding: 5rpx 20rpx;
+  line-height: 60rpx;
+  margin-top: 15rpx;
+  background: #FFB14B;
+  border-radius: 20px;
+  color: #fff;
+  float: left;
+}
+/* 绑定失败 */
+.status_fail{
+  padding: 5rpx 20rpx;
+  line-height: 60rpx;
+  margin-top: 15rpx;
+  background: #FF5C5C;
+  border-radius: 20px;
+  color: #fff;
+  float: left;
+}
+.sure{
+  width: 94%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 50rpx 0 0 3%;
+}
+.sureBtn{
+  width: 100%;
+  background: #2B9CED;
+  font-size: 28rpx;  
+  color: #fff;
+  box-shadow: 0px 2px 5px #ccc;
+}

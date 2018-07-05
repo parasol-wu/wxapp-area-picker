@@ -1,0 +1,22 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class='address'>
+    <view class='selectAddress'>
+      <picker mode="selector" range="{{province}}" value="{{provinceIndex}}" bindchange="provincePicker" class='address_province'
+      data-procode="{{provinceCode}}">
+        <text>{{province[provinceIndex]}}</text>
+        <image src='../images/down.png' style='width: 56rpx;height: 56rpx;' class='selecrtImg'></image>
+      </picker>
+      <picker mode="selector" range="{{city}}" value="{{cityIndex}}" bindchange="cityPicker" class='address_province' 
+      data-citycode="{{cityCode}}">
+        <text>{{city[cityIndex]}}</text>
+        <image src='../images/down.png' style='width: 56rpx;height: 56rpx;' class='selecrtImg'></image>
+      </picker>
+      <picker mode="selector" range="{{district}}" value="{{districtIndex}}" bindchange="districtPicker" class='address_province'
+      data-councode="{{districtCode}}">
+        <text>{{district[districtIndex]}}</text>
+        <image src='../images/down.png' style='width: 56rpx;height: 56rpx;' class='selecrtImg'></image>
+      </picker>
+    </view>
+  </view>
+</view>
